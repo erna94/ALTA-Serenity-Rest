@@ -27,6 +27,23 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
         </dependency>
+        <!--
+         Menambahkan json-scemma validation untuk di pakai di code-->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>5.1.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--
+        Menambahkan json-simple untuk di pakai di code
+        https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1</version>
+        </dependency>
 
         <!-- Serenity Dependencies -->
         <dependency>
