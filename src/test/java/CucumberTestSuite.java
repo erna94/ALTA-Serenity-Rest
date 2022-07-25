@@ -1,6 +1,3 @@
-package starter;
-
-
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
@@ -8,6 +5,6 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = "classpath:features/Reqres/Reqres.feature"
+        features = "classpath:features/Reqres/TugasReqres.feature"
 )
 public class CucumberTestSuite {}
